@@ -19,7 +19,7 @@
         }
         System.out.println();
         }
-        // code here
+        
     }
 }
 3.class Solution {
@@ -86,6 +86,26 @@
                 System.out.print("* ");
             }
             System.out.println();
+        }
+    }
+}
+8.class Solution8 {
+
+    void printTriangle(int n) {
+        // code here
+        for(int i = 0; i<=n ; i++){
+         int m = n-i;
+           for(int j = 0; j< i;j++  ){
+            System.out.print(" ");
+        }
+            for(int j = 0; j < m ; j++){
+                System.out.print("*");
+        }
+      
+        for(int j = 1; j<n-i;j++  ){
+            System.out.print("*");
+        }
+        System.out.println();
         }
     }
 }
