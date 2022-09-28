@@ -68,10 +68,16 @@
        1 0 1 0 1
     
 10.
+  A
+  AB
+  ABC
+  ABCD
+  ABCDE
+  ABCDEF
 
-A
-AB
-ABC
-ABCD
-ABCDE
-ABCDEF
+11.
+  ABCDE
+  ABCD
+  ABC
+  AB
+  A
