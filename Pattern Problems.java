@@ -127,13 +127,28 @@ class Solution9 {
     }
 
 10.
-    class Solution {
+    class Solution10 {
 
     void printTriangle(int n) {
      
         for(int i = 0 ; i < n ; i++){
                 char value = 'A';
             for(int j = 0 ; j <=i;j++){
+                System.out.print(value);
+                value++;
+            }
+            System.out.println();
+        }
+    }
+}
+11.
+class Solution11 {
+
+    void printTriangle(int n) {
+        // code here
+        for(int i = n ; i > 0 ; i--){
+                char value = 'A';
+            for(int j = i ; j >0;j--){
                 System.out.print(value);
                 value++;
             }
