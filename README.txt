@@ -81,3 +81,10 @@
   ABC
   AB
   A
+
+12.
+  
+   A
+  ABA
+ ABCBA
+ABCDCBA
