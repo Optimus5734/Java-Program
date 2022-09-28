@@ -92,7 +92,7 @@
 8.class Solution8 {
 
     void printTriangle(int n) {
-        // code here
+       
         for(int i = 0; i<=n ; i++){
          int m = n-i;
            for(int j = 0; j< i;j++  ){
@@ -114,7 +114,7 @@
 class Solution9 {
 
     void printTriangle(int n) {
-        // code here
+        
         for(int i = 1 ; i <= n ; i++){
             for(int j = i ; j >= 1 ; j-- ){
                     System.out.print(j%2+" ");
@@ -125,3 +125,19 @@ class Solution9 {
             }
         }
     }
+
+10.
+    class Solution {
+
+    void printTriangle(int n) {
+     
+        for(int i = 0 ; i < n ; i++){
+                char value = 'A';
+            for(int j = 0 ; j <=i;j++){
+                System.out.print(value);
+                value++;
+            }
+            System.out.println();
+        }
+    }
+}
