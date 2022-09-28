@@ -156,3 +156,29 @@ class Solution11 {
         }
     }
 }
+12.
+   class Solution {
+
+    void printTriangle(int n) {
+        // code here
+             for(int i = 1 ; i <= n ; i++){
+                  for(int j = 0 ; j <n-i;j++)
+                    System.out.print(" ");
+                    
+                    
+                  char value = 'A';
+                  
+                  for(int j = 1 ; j<=i ; j++){
+                        System.out.print(value);
+                        value++;
+                  }
+                  
+                  value--;
+                  for(int j = 1 ; j<i ; j++){
+                        value--;
+                        System.out.print(value);
+                  }
+            System.out.println();
+        }
+    }
+}
