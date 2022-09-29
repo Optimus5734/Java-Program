@@ -182,3 +182,20 @@ class Solution11 {
         }
     }
 }
+13. class Solution13 {
+
+    void printTriangle(int n) {
+        // code here
+        for(int i = 0 ; i<n ; i ++){
+        int value=65;
+        value = value+n-1;
+        char pat = (char)value;
+        for(int j = 0 ; j <= i ; j++){
+            System.out.print(pat+" ");
+            pat--;
+        }
+        System.out.println();
+    }
+        
+    }
+}
