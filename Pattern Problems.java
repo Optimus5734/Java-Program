@@ -291,3 +291,18 @@ class Solution14 {
         
     }
 }
+17.
+class Solution17 {
+
+    void printSquare(int n) {
+        // code here
+        for(int i = 1 ; i < (2*n) ; i++ ){
+            for(int j = 1 ; j< (2*n) ;j ++ ){
+                int value = Math.min(Math.min(i,j),Math.min(2*n-i,2*n-j));
+                int p = n-value + 1;
+                System.out.print(p+" ");
+            }
+            System.out.println();
+        }
+    }
+}
