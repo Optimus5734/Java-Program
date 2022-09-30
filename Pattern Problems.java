@@ -268,3 +268,26 @@ class Solution14 {
         }
     }
 }
+
+16.class Solution16 {
+
+    void printSquare(int n) {
+        // code here
+        for(int i = 0 ; i < n ; i ++){
+            if(i==0 || i==n-1){
+                for(int j = 0 ; j<n ; j++)
+                   System.out.print("*");
+            }
+            else{
+                System.out.print("*");
+                for(int k = 0 ; k<n-2 ; k++)
+                    System.out.print(" ");
+                System.out.print("*");   
+            }
+             
+              System.out.println();
+        }
+            
+        
+    }
+}
